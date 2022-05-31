@@ -4,7 +4,7 @@ README: [English](https://github.com/scutcyr/CPED/blob/main/README.md)
 This repository provides the implementation details for the paper:    
 **CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Open-domain Conversation**   
 
-For more information, please refer to our [paper]([https:](https://arxiv.org/abs/2205.14727)。
+For more information, please refer to our [paper](https://arxiv.org/abs/2205.14727)。
 
 ## <a name="#Contents">Contents</a>
 * <a href="#Introduction">Introduction</a>
