@@ -39,7 +39,7 @@ In order for the dialogue system to learn emotional expression and personalized 
 Distribution of Gender, Age Group, Sentiment, Emotion and DA in CPED Dataset are shown in the following figure.
 ![](./images/dataset_staticstics.png)
 
- The statistics of CPED are listed in the folloeing table.
+ The statistics of CPED are listed in the following table.
 | Statistics                      | Train   | Dev     | Test    |
 |---------------------------------|---------|---------|---------|
 | # of modalities                 | (v,a,t) | (v,a,t) | (v,a,t) |
