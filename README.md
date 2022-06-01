@@ -72,6 +72,7 @@ Please cite our paper if you use CPED or this project:
 @article{chen2022cped,
 	title={{CPED}: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI},
 	author={Yirong Chen and Weiquan Fan and Xiaofen Xing and Jianxin Pang and Minlie Huang and Wenjing Han and Qianfeng Tie and Xiangmin Xu},
+	journal={arXiv preprint arXiv:2205.14727},
 	year={2022},
 	url={https://arxiv.org/abs/2205.14727}
 }
