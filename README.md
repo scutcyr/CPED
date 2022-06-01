@@ -1,20 +1,24 @@
 # [CPED](https://github.com/scutcyr/CPED)
     
-README: [English](https://github.com/scutcyr/CPED/blob/main/README.md)
+README: [English](https://github.com/scutcyr/CPED/blob/main/README.md)    
 This repository provides the implementation details for the paper:    
-**CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Open-domain Conversation**   
+**[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727)**   
 
 For more information, please refer to our [paper](https://arxiv.org/abs/2205.14727)。
 
 ## <a name="#Contents">Contents</a>
 * <a href="#Introduction">Introduction</a>
 * <a href="#Dataset">Dataset Statistics</a>
-* <a href="#Model">Baseline Model</a>
+* <a href="#Task">Task Definition</a>
 * <a href="#Evaluation">Evaluation Results</a>
 * <a href="#Usage">Usage</a>
 
 ## <a name="#Introduction">Introduction</a>
 We construct a dataset named **CPED** from 40 Chinese TV shows. CPED consists of multisource knowledge related to empathy and personal characteristic. This knowledge covers 13 emotions, gender, Big Five personality traits, 19 dialogue acts and other knowledge. The table below shows a comparison of CPED with some other common conversation data sets.
+
+* We build a multiturn Chinese Personalized and Emotional Dialogue dataset called CPED. To the best of our knowledge, CPED is the first Chinese personalized and emotional dialogue dataset. CPED contains 12K dialogues and 133K utterances with multi-modal context. Therefore, it can be used in both complicated dialogue understanding and human-like conversation generation.
+* CPED has been annotated with 3 character attributes (name, gender age), Big Five personality traits, 2 types of dynamic emotional information (sentiment and emotion) and DAs. The personality traits and emotions can be used as prior external knowledge for open-domain conversation generation, making the conversation system have a good command of personification capabilities.
+* We propose three tasks for CPED: **personality recognition in conversations (PRC)**, **emotion recognition in conversations (ERC)**, and **personalized and emotional conversation (PEC)**. A set of experiments verify the importance of using personalities and emotions as prior external knowledge for conversation generation.
 
 ![dataset_comparison](./images/dataset_comparison.png)
 
@@ -52,6 +56,25 @@ Distribution of Gender, Age Group, Sentiment, Emotion and DA in CPED Dataset are
 | Avg. duration of an utterance   | 2.1s    | 2.12s   | 2.21s   |
 
 
+## <a name="#Task">Task Definition</a>
+CPED allows evaluation of both conversational cognitive tasks and conversation generation tasks, e.g. speaker modeling, personality recognition in conversations, emotion recognition in conversations, DA recognition in conversations, emotion prediction for response, emotional conversation generation, personalized conversation generation, empathetic conversation etc. By being multimodal, CPED can also be applied in multimodal personality or emotion recognition, multimodal conversation generation. It will play a positive role in promoting the development of cognitive intelligence.   
+We introduced 3 tasks in the project:   
+* **ERC**: Emotion Recognition in Conversation
+* **PRC**: Personality Recognition in Conversation
+* **PEC**: Personalized and Emotional Conversation   
 
+
+
+
+
+Please cite our paper if you use CPED or this project:    
+```
+@article{chen2022cped,
+	title={{CPED}: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI},
+	author={Yirong Chen and Weiquan Fan and Xiaofen Xing and Jianxin Pang and Minlie Huang and Wenjing Han and Qianfeng Tie and Xiangmin Xu},
+	year={2022},
+	url={https://arxiv.org/abs/2205.14727}
+}
+```
 
 >>> Engineering Research Ceter of Ministry of Education on Human Body Perception
