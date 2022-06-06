@@ -66,6 +66,33 @@ We introduced 3 tasks in the project:
 
 
 
+## <a name="#Usage">Usage</a>
+You can create the python virtual environment through the following bash script:   
+```bash
+cd envs # 切换到envs目录
+conda env create -n py38_cped --file py3.8_torch1.9.0_ignite0.4.8_tensorflow2.2.0_cuda10.2_transformers4.18.0_paddlepaddle-gpu_2.3.0.yml
+```
+
+some version of the used packages are as follows:   
+```bash
+python=3.8
+torch==1.9.0+cu102 
+torchvision==0.10.0+cu102 
+torchaudio==0.9.0
+tensorflow==2.2.0
+tensorboard==2.2.2
+transformers==4.18.0
+paddlepaddle-gpu==2.3.0
+pytorch-ignite==0.4.8
+matplotlib==3.5.2
+notebook==6.4.11
+pandas==1.4.2
+chardet==4.0.0
+nltk==3.7
+bert-score==0.3.11
+```
+
+
 
 
 Please cite our paper if you use CPED or this project:    
