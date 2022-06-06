@@ -1,5 +1,5 @@
 # [CPED](https://github.com/scutcyr/CPED)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python) [![GitHub stars](https://img.shields.io/github/stars/scutcyr/CPED)](https://github.com/scutcyr/CPED/stargazers) [![GitHub license](https://img.shields.io/github/license/scutcyr/CPED)](https://github.com/scutcyr/CPED/blob/main/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/scutcyr/CPED) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) ![GitHub last commit](https://img.shields.io/github/last-commit/scutcyr/CPED)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python) [![arxiv](https://img.shields.io/badge/arXiv-2205.14727-b31b1b.svg)](https://arxiv.org/abs/2205.14727) [![GitHub stars](https://img.shields.io/github/stars/scutcyr/CPED)](https://github.com/scutcyr/CPED/stargazers) [![GitHub license](https://img.shields.io/github/license/scutcyr/CPED)](https://github.com/scutcyr/CPED/blob/main/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/scutcyr/CPED) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) ![GitHub last commit](https://img.shields.io/github/last-commit/scutcyr/CPED) 
 
 README: [English](https://github.com/scutcyr/CPED/blob/main/README.md) | [中文](https://github.com/scutcyr/CPED/blob/main/README-zh.md)
 该仓库提供下面的论文的实现细节：    
@@ -41,7 +41,7 @@ CPED包括与情感、个性特质相关的多源知识，包括：13类情绪�
 CPED数据集中性别、年龄、3分类情感、13分类细粒度情绪和DA的统计学分布如下图所示。
 ![](./images/dataset_staticstics.png)
 
- The statistics of CPED are listed in the following table.
+ CPED的各项统计信息如下表所示.
 | 统计项                   | 训练集   | 验证集     | 测试集    |
 |-----------------------|---------|---------|---------|
 | 模态                     | (v,a,t) | (v,a,t) | (v,a,t) |
