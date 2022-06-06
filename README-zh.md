@@ -1,7 +1,7 @@
 # [CPED](https://github.com/scutcyr/CPED)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python) [![GitHub stars](https://img.shields.io/github/stars/scutcyr/CPED)](https://github.com/scutcyr/CPED/stargazers) [![GitHub license](https://img.shields.io/github/license/scutcyr/CPED)](https://github.com/scutcyr/CPED/blob/main/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/scutcyr/CPED) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) ![GitHub last commit](https://img.shields.io/github/last-commit/scutcyr/CPED)
 
-README: [English](https://github.com/scutcyr/CPED/blob/main/README.md) | [中文](https://github.com/scutcyr/CPED/blob/main/README-zh.md)
+README: [English](https://github.com/scutcyr/CPED/blob/main/README.md) | [中文](https://github.com/scutcyr/CPED/blob/main/README-zh.md)    
 该仓库提供下面的论文的实现细节：    
 **[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727)**  
 
