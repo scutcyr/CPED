@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# dataset
+CPED_cache_for_CpedDataset
+logs/
+runs/
+results/
