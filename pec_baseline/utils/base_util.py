@@ -1,6 +1,6 @@
 # coding=utf-8
 # Copyright 2021 South China University of Technology and 
-# Engineering Research Ceter of Minstry of Education on Human Body Perception.
+# Engineering Research Ceter of Ministry of Education on Human Body Perception.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
