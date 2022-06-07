@@ -8,3 +8,12 @@
 ## Task Definition
 ## 任务定义
 See [https://paperswithcode.com/task/personalized-and-emotional-conversation](https://paperswithcode.com/task/personalized-and-emotional-conversation)
+
+
+## Folder Description
+## 目录说明
+* ```config```: Storing the configuration file of the models.
+* ```models```: Storing Python code that defines the models.
+* ```results```: Storing the result for testing the trained model.
+* ```runs```: Storing model parameters and related configurations generated during training or after training.
+* ```utils```: Storing Python code for reading dataset.
