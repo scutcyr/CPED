@@ -85,6 +85,7 @@ tensorflow==2.2.0
 tensorboard==2.2.2
 transformers==4.18.0
 paddlepaddle-gpu==2.3.0
+paddlenlp==2.3.2
 pytorch-ignite==0.4.8
 matplotlib==3.5.2
 notebook==6.4.11
