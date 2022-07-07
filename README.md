@@ -72,8 +72,21 @@ We introduced 3 tasks in the project:
 ## <a name="#Usage">Usage</a>
 You can create the python virtual environment through the following bash script:   
 ```bash
-cd envs # 切换到envs目录
-conda env create -n py38_cped --file py3.8_torch1.9.0_ignite0.4.8_tensorflow2.2.0_cuda10.2_transformers4.18.0_paddlepaddle-gpu_2.3.0.yml
+conda create -n py38 python=3.8
+conda activate py38
+pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install tensorflow==2.2.0
+pip install transformers==4.18.0
+python -m pip install paddlepaddle-gpu==2.3.0 -i https://mirror.baidu.com/pypi/simple
+pip install pytorch-ignite==0.4.8
+pip install notebook
+pip install pandas
+pip install chardet
+pip install matplotlib==3.5.2
+python -m pip install paddlenlp -i https://mirrors.aliyun.com/pypi/simple/
+python -m pip install ppasr -i https://mirrors.aliyun.com/pypi/simple/ -U
+pip install nltk
+pip install bert-score
 ```
 
 some version of the used packages are as follows:   
