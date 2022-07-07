@@ -6,7 +6,9 @@ README: [English](https://github.com/scutcyr/CPED/blob/main/README.md) | [中文
 This repository provides the implementation details for the paper:    
 **[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727)**   
 
-For more information, please refer to our [paper](https://arxiv.org/abs/2205.14727).
+For more information, please refer to our [paper](https://arxiv.org/abs/2205.14727).   
+
+The dataset is also available in luge.ai: [https://www.luge.ai/#/luge/dataDetail?id=41](https://www.luge.ai/#/luge/dataDetail?id=41)
 
 ## <a name="#Contents">Contents</a>
 * <a href="#Introduction">Introduction</a>
@@ -61,9 +63,9 @@ Distribution of Gender, Age Group, Sentiment, Emotion and DA in CPED Dataset are
 ## <a name="#Task">Task Definition</a>
 CPED allows evaluation of both conversational cognitive tasks and conversation generation tasks, e.g. speaker modeling, personality recognition in conversations, emotion recognition in conversations, DA recognition in conversations, emotion prediction for response, emotional conversation generation, personalized conversation generation, empathetic conversation etc. By being multimodal, CPED can also be applied in multimodal personality or emotion recognition, multimodal conversation generation. It will play a positive role in promoting the development of cognitive intelligence.   
 We introduced 3 tasks in the project:   
-* **ERC**: Emotion Recognition in Conversation
-* **PRC**: Personality Recognition in Conversation
-* **PEC**: Personalized and Emotional Conversation   
+* **ERC**: [Emotion Recognition in Conversation](https://paperswithcode.com/task/emotion-recognition-in-conversation)
+* **PRC**: [Personality Recognition in Conversation](https://paperswithcode.com/task/personality-recognition-in-conversation)
+* **PEC**: [Personalized and Emotional Conversation](https://paperswithcode.com/task/personalized-and-emotional-conversation)   
 
 
 

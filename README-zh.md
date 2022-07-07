@@ -5,7 +5,9 @@ README: [English](https://github.com/scutcyr/CPED/blob/main/README.md) | [中文
 该仓库提供下面的论文的实现细节：    
 **[CPED: A Large-Scale Chinese Personalized and Emotional Dialogue Dataset for Conversational AI](https://arxiv.org/abs/2205.14727)**  
 
-更多信息请参考我们的[论文](https://arxiv.org/abs/2205.14727)。
+更多信息请参考我们的[论文](https://arxiv.org/abs/2205.14727)。   
+
+数据集已经同步发布在千言平台: [https://www.luge.ai/#/luge/dataDetail?id=41](https://www.luge.ai/#/luge/dataDetail?id=41)
 
 ## <a name="#Contents">目录</a>
 * <a href="#Introduction">简介</a>
@@ -62,9 +64,9 @@ CPED数据集中性别、年龄、3分类情感、13分类细粒度情绪和DA�
 ## <a name="#Task">任务定义</a>  
 CPED可以用于对话理解任务和对话生成任务的评估，例如说话人建模、对话中的个性识别、对话中的情感识别、对话中的DA识别、回复的情感预测、情感对话生成、个性会话生成、移情对话生成等，CPED还可以应用于多模态人格或情感识别、多模态对话生成。它将对促进认知智能的发展起到积极的作用。
 我们在本项目当中引入3种任务，如下所示:   
-* **ERC**: 对话中的情感识别任务
-* **PRC**: 对话中的人格（个性）识别任务
-* **PEC**: 个性情感对话生成任务  
+* **ERC**: [对话中的情感识别任务](https://paperswithcode.com/task/emotion-recognition-in-conversation)
+* **PRC**: [对话中的人格（个性）识别任务](https://paperswithcode.com/task/personality-recognition-in-conversation)
+* **PEC**: [个性情感对话生成任务](https://paperswithcode.com/task/personalized-and-emotional-conversation)  
 
 
 
